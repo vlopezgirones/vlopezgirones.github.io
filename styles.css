@@ -142,7 +142,7 @@ color: #fafafa;
 }
 
 .scroll {
-  display: none;
+  display: unset;
 }
 @media screen and (min-width: 500px) {
 
@@ -156,15 +156,6 @@ color: #fafafa;
   justify-content: space-between;
   }
 
-  h1 {
-    font-size: 50px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-  
   h2 {
     font-size: 15px;
     font-weight: normal;
@@ -172,15 +163,9 @@ color: #fafafa;
   }
   
 
-  .intro {
-    min-height: 90vh;
-  }
+  
 
 
-
-.topnav {
-  display: none;
-}
 
 #icons {
   margin: 40px;

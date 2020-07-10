@@ -22,11 +22,12 @@
 
 }
 
+
  
 
   .project {
       width: 100%;
-      height: auto;
+      margin-bottom: 5px;
   }
 
   @keyframes fade-in {
@@ -40,7 +41,6 @@
 
 .projects img {
   width: 100%;
-  height: AUTO;
   -webkit-animation: fade-in 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fade-in 2s; /* Firefox < 16 */
    -ms-animation: fade-in 2s; /* Internet Explorer */
@@ -83,6 +83,7 @@ color: #fafafa;
       line-height: 25px;
       margin-left: 15px;
       margin-top: 100px;
+      margin-bottom: 50px;
   }
 
   .icons {
@@ -111,8 +112,9 @@ color: #fafafa;
 
 
   h2 {
-      font-size: 25px;
+      font-size: 10px;
       font-weight: normal;
+      line-height: 40px;
   }
 
   body {	
@@ -163,7 +165,7 @@ color: #fafafa;
   }
   
   h2 {
-    font-size: 25px;
+    font-size: 15px;
     font-weight: normal;
     line-height: 80px;
   }
@@ -194,6 +196,15 @@ color: #fafafa;
 @media screen and (min-width: 700px) {
 
   h2 {
-    font-size: 35px;
+    font-size: 20px;
 
   }
+
+
+  @media screen and (min-width: 1000px) {
+
+    h2 {
+      font-size: 30px;
+  
+    }
+  

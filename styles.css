@@ -72,7 +72,6 @@ color: #fafafa;
 .intro {
 
       width: 100%;
-      height: AUTO;
       display: flex;
       flex-direction: column;
       align-items: center;

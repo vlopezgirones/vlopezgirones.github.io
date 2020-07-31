@@ -10,44 +10,41 @@
 
     
  }
- .topnav {
-    overflow: hidden;
-    background-color: #fafafa;
-    position: relative;
-    
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: flex;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: #ffffff;
-    display: flex;
-    position: left ;
-    right: 0;
-    top: 0;
-    box-shadow: darkgrey 0px 2px 5px;
 
-  }
+ .topnavdesktop {
+    
+  position: fixed;
+  width: 100%;
+  
+}
+
+.topnavdesktop ul {
+  padding-right: 5px;
+}
+
+.topnavdesktop li {
+  margin-left: 35px;
+}
+
+h2 {
+  margin-top: 10px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
   .main {
       display: flex;
-      width: 100vw;
+      width: 50vw;
       height: 100%;
       flex-direction: column;
       align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 20px;
 
   }
 
@@ -60,12 +57,8 @@
       margin-top: 60px;
       margin-bottom: 20px;
   }
-  .title, .text {
-      margin: 15px;
-      text-align: center;
 
-  }
-
+ 
   .title {
     text-align: center;
 
@@ -73,6 +66,7 @@
 .text {
   margin-left: 40px;
   margin-right: 40px;
+  margin-bottom: 30px;
 }
   h1 {
       font-size: 30px;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/fcdf713201.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css" > 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
 
@@ -26,13 +26,16 @@
             </a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="testproject.html">Matcher</a>
-              <a class="dropdown-item" href="Project1.html">PS4 UX/UI Redesign</a>
-              <a class="dropdown-item" href="#">Webdev</a>
+              <a class="dropdown-item" href="testproject2.html">PS4 UX/UI Redesign</a>
+              <a class="dropdown-item disabled" href="#">Webdev - Coming soon!</a>
             </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li> -->
             
         </ul>
       </div>  
@@ -41,14 +44,20 @@
   <div class="main">
           <div class="intro">
             <div class="text">
-            <h2>Hi,<b> I'm Victor</b>, a passionate UX/UI Designer from Barcelona. <br> I can Research, Design, Prototype and even code!</h2> 
+            <h2>Hi,<b> I'm Victor</b>, a passionate UX/UI Designer from Barcelona. <br> I can Research, Design, Prototype and Code!</h2> 
           </div>
             <div class="icons">
+             <a href="https://www.linkedin.com/in/uxvictorlopez/" target="_blank">
               <i id="icons" class="fa fa-linkedin-square" style="color:#0073B0"></i>
+            </a>
+            <a href="https://medium.com/@vlopezgirones" target="_blank">
               <i id="icon-medium" class="fa fa-medium" style="color:#020202"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCo9kk0fJUilq1MJB_lYUF0g?view_as=subscriber" target="_blank">
               <i id="icons" class="fa fa-youtube-play" style="color:red"></i>
-          
+            </a>
              </div> 
+             
              <div class="scroll">Scroll down to check my projects!</div>
 
            </div>
@@ -61,17 +70,17 @@
       </div>
       <div class="project">
 
-        <a href="project1.html">
-          <img src="media/pictures/ps4cover3.png" alt="cover">
+        <a href="testproject2.html">
+          <img src="media/pictures/PS4COVERFINAL.png" alt="cover">
       </a>
       </div>
-      <DIV id="japan" class="project">
+      <!-- <DIV id="japan" class="project" >
         <a href="project2.html"> 
             
             <div class="Title"><h1><span id="jap"></span>Portfolio</h1></div>
             <div class="subtitle"><h2>HTML, CSS & JS</h2></div>
             </a>
-          </DIV>
+          </DIV> -->
             
                
            
@@ -79,7 +88,20 @@
              
           </div>
       </div>
-</body>
+      <footer id="main-footer" class="p-5 bg-dark text-white">
+        <div class="row justify-content-center align-content-center">
+          <div class="col-md-6">
+            <a href="#" class="btn btn-outline-light">
+              <i class="fas fa-cloud"></i> Download Resume
+            </a>
+            <a href="#" class="btn btn-outline-light" VALUE="Contact Me!" onClick="parent.location='mailto:vlopezgirones@gmail.com?subject= Looking forward to working together'">
+                <i class="fas fa-envelope"></i> Contact Me!
+              </a>
+          </div>
+        </div>
+      </footer>
+    
+
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
@@ -91,6 +113,7 @@
      $('#year').text(new Date().getFullYear));
 
  </script>
+ </body>
 
 </html>
 

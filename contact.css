@@ -1,0 +1,30 @@
+
+
+ .topnavdesktop {
+    
+    position: fixed;
+    width: 100%;
+    
+  }
+  
+  .topnavdesktop ul {
+    padding-right: 5px;
+  }
+  
+  .topnavdesktop li {
+    margin-left: 35px;
+  }
+
+  .wrapper {
+      padding-top: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    
+      
+  }
+
+  #contact {
+      width: 50%;
+  }

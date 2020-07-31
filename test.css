@@ -30,7 +30,9 @@ footer {
 
 }
 
-
+footer a{
+  margin-bottom: 10px;
+}
 
 .topnavdesktop {
     
@@ -181,13 +183,30 @@ h1 {
 
     margin-left: 20px;
     margin-right: 20px;
-}
+} 
 .content3 {
 margin-left: 20px;
 margin-right: 20px;
 }
 
+.goalstext {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
 
+}
+
+
+.graphics {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 50px;
+}
 }   
    
    

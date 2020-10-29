@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/fcdf713201.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="matcher.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap" rel="stylesheet"> 
+    <title>Matcher</title>
+</head>
+<body>
+
+    <div class="topnavdesktop"> 
+        <nav class="navbar navbar-expand-md bg-light navbar-light ">
+          <a class="navbar-brand" href="index.html">VL</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown" id="dropdownprojects">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Projects
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item active" href="matcher.html">Matcher</a>
+                    <a class="dropdown-item" href="ps4.html">PS4 UX/UI Redesign</a>
+                  <a class="dropdown-item disabled" href="#">Webdev</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+                
+            </ul>
+          </div>  
+        </nav>
+      </div>
+      <div class="coverwrap"> 
+        <picture>
+          <source srcset="media/pictures/matchersmall.png" media="(max-width: 768px)">
+          <source srcset="media/pictures/matcher_portada.png">
+          <img srcset="media/pictures/matcher_portada.png" alt="My default image">
+      </picture>
+     </div>
+  
+     <div class="section">
+        <h1>How did it begin?</h1>
+
+        <p>Have you ever played competitive online games? Have you ever "flamed" a teammate?</p>
+        
+       <ul> 
+        
+       <li> Matcher is born to help Gamers find teammates easier, faster and more accurately than with any other method.</li>
+        
+       <li> The main goal of this project was to create an App that would allow users to find teammates by filtering results.</li>
+        
+       <li> I researched and designed the App on my own, and this was my last project at @Ironhack</li>
+        
+        </ul>
+        
+
+     </div>
+
+     <div class="research">
+        <div class="title"><h1>Research</h1></div> 
+         <div class="splitsection">
+             <div class="content">
+                <h2>Interviews</h2>
+              <br>  <p> <i> At the discovery phase of my project, I conducted user interviews in order to get a better understanding of the problem.</i></p>
+              <br>  <ul>
+                    <li>This method was chosen due to the need of having as much qualitative feedback than possible. A specific group of users was selected to conduct the interviews, focused on those that played online competitive games. The interview consisted in 7 questions that addressed the main pain points of gamers during their experience when queueing and playing games, 10 Gamers were interviewed.</li>
+                    <li>The KEY points to understand where if gamers experienced issues whenever they wanted to find a duo partner or a team, and to understand what was important to them when choosing a partner.</li>
+                    <li>Thanks to the wonderful feedback received it was clear to me that it is not easy to find colleagues to play, and that the most important aspect for gamers is the attitude towards the game, differentiating between try-hard modes and just for fun play. I was able to see that the most important aspect for gamers was to filter users regarding their attitudes as well as regarding to what they were searching for or their "needs", in terms of wanting to maybe get a better ranking or just playing to learn.
+
+                    </li>
+                </ul>
+             </div>
+             <div class="image">
+                 <figure>
+                    <img src="media/pictures/wireframes/Screenshot 2020-10-16 at 10.56.57.png" alt="graphic" >        
+                    <figcaption>Fig. 1 "Do you struggle to find people to play with?"</figcaption>
+                </figure>
+                <figure>
+                    <img src="media/pictures/graphwhiteskills.png" alt="graphics">
+                    <figcaption>Fig. 2 "What are your preferences when searching for a teammate?"</figcaption>
+                </figure>
+             </div>
+
+         </div>
+         <div class="surveys"> 
+            <div class="splitsection">
+                <div class="survey">
+                    <figure>
+                       <img class="surveylean" src="media/pictures/Survey Lean Matcher.png" alt="Survey Lean Canvas" >        
+                       <figcaption>Fig. 1 "Do you struggle to find people to play with?"</figcaption>
+                   </figure>
+                
+                </div>
+                <div class="content">
+                    <h2>Surveys - <a href="https://victorlopez645764.typeform.com/report/YHJzxV/7N7GDp4HWRlVyrNx">Link Here!</a></h2>
+                   <br> <p> <i>Even if the qualitative feedback was useful, I was aware that this was not enough for me as I wanted to gather as much data as I could to validate or deny any belief that I could have during the design process.</i> </p>
+                   <br> <ul>
+                        <li>Surveys were launched in Gaming Forums and <a href="https://discord.com/invite/loles">League of Legends official discord server.</a> </li>
+                        <li>Around 30 people took part in this process.</li>
+                        <li>Surveys helped me gather a better understanding in what users wanted, and the results were similar to what I had anticipated thanks to the interviews.</li>
+                        <li>I decided to fully commit to a Multi Game App - my plan at first was only for League of Legends and Counter Strike - as well as to creating a system that would allow you to filter users based on their preferences, specially focusing in their attitudes towards the game and their level of skill, which was a mandatory thing for me to consider as playing with different level of skill players could end up being frustrating as per the feedback received.</li>
+                    </ul>
+
+                 </div>
+
+         </div>
+     </div>
+ </div>
+ <div class="research">
+    <div class="title"><h1>Design</h1></div> 
+     <div class="splitsection">
+         <div class="content">
+            <h2>Wireframes</h2>
+            <br>
+            <p><i>At the beginning of my design process I created wireframes for testing purposes.</i></p>
+          <br>  <ul>
+                <li>My main Goal was to have a wire framed MVP so I could test it with my potential users.</li>
+                <li>I drew both Low Fidelity and Mid Fidelity Wireframes. I used the Low Fidelity to have a better understanding of which would be the better suited Site Map and how to organise the information architecture.</li>
+                <li>Sketch was the tool that I've used as it adapted to what I needed. Since there were no plans for me to animate the UI I discarded the use of apps like Flinto. </li>
+                <li>This wireframes were tested with 5 users.</li>
+                <li>The process went through several changes in terms of what was shown in screen and how it was shown, and at least 3 different designs were used and tested.</li>
+            </ul>
+         </div>
+         <div class="wireframes">
+            <figure>
+               <img class="surveylean" src="media/pictures/wireframes/wireframemockup.png" alt="Wireframe" >        
+           </figure>
+        
+        </div>
+     </div>
+ </div>
+ <div class="uidesign">
+     <div class="splitsection">
+        <div class="UI">
+      
+              <img class="surveylean" src="media/pictures/moodboard.png" alt="Wireframe" >        
+       
+       
+       </div>
+       <div class="content">
+        <br><br><h2>UI Design</h2>
+        <br>
+        <p> <i> Once I tested out all usability mistakes, I started designing the final screens in Sketch.</i></p>
+        <br>
+        <ul>
+            <li>During the UI Design process I used three different styles to see which one would be better received by my users. My main doubts revolved between using a more Pixel Art style or something more stylish and fresh, similar to what Riot Games did with their new game <a href="https://playvalorant.com/es-es/">Valorant.</a> </li>
+            <li>In the end, I opted for the more stylish, fresh and fast style of design, inspired by neon lights and dark backgrounds.</li>
+            <li>The App was designed only for Mobile, but next steps would be to design a Desktop Website as many gamers constantly use this in a daily basis.</li>
+            <li>I'm happy with the overall result, as well as I've done my best to introduce some UX Writing using sentences like "4 fun", for example.</li>
+            <li>Thanks to my user feedbacks I was able to find a design that tackled all of their concerns.</li>
+            <li>The design creates the need for the player to use it to be able to fully enjoy their competitive games. This can create a bond between the player and the App, as he would trust it and not rely in the default match making queues already available in this games.</li>
+            <li>My next step would be how to monetize the content, as well as to use all the data to understand better the habits of gamers and help companies improve how they create their match making systems.</li>
+        </ul>
+     </div>
+    </div>
+</div>
+<div class="mockups">
+    <img src="media/pictures/wireframes/homematcher.png" alt="">
+    <img src="media/pictures/wireframes/searchmatcher.png" alt="">
+    <img src="media/pictures/wireframes/profilematcher.png" alt="">
+
+</div>
+<div class="section">
+    <h1>Final Notes</h1>
+    <p><i>What did I learn?</i></p> 
+
+    
+   <ul> 
+     <li> During the Design process, I was scared that the App would be complicated to use as I wanted to tackle many different aspects that could lead to a very complicated UI. Simplifying this was my main concern without compromising the usability of the App.</li>
+     <li> Thanks to the feedback received during the testing process I was able to organize the site map efficiently enough to be able to address my User's main concerns without forgetting to create an easy to use App.    </li>
+     <li> My next steps would be:
+         <ul>
+             <li>Monetization of the App.</li>
+             <li>Further simplification of the UI.</li>
+             <li>Desktop version.</li>
+         </ul>
+     </li>
+   </ul>
+    
+
+ </div>
+ <div class="proto">
+     <a href="https://victor676224.invisionapp.com/console/share/HR17XWS9VF"><h1>Try my Prototype!</h1></a>
+ </div>
+ <div class="ending">
+ </div>
+ <div class="bonus">
+    <div class="splitsection">
+        <div class="content">
+           <h2>Bonus</h2>
+           <p>This was my first design, focused in Pixel Art Style that I really enjoyed but that really didn't fit the project.</p>
+        </div>
+        <div class="image">
+            <figure>
+               <img src="media/pictures/wireframes/pixelhome.png" alt="pixelart" >        
+           </figure>
+        </div>
+
+    </div>
+    <div class="mockups">
+        <img src="media/pictures/wireframes/pixelqueues.png" alt="">
+        <img src="media/pictures/wireframes/pixelprofile.png" alt="">
+        <img src="media/pictures/wireframes/pixelfilter.png" alt="">
+    
+    </div>
+
+ </div>
+
+    
+ <footer id="main-footer" class="p-5 bg-light text-dark">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <a href="media/resume.pdf" target="_blank" class="btn btn-outline-dark">
+          <i class="fas fa-cloud"></i> Download Resume
+        </a>
+        <a href="#" class="btn btn-outline-dark" VALUE="Contact Me!" onClick="parent.location='mailto:vlopezgirones@gmail.com?subject= Looking forward to working together'" target="_blank">
+          <i class="fas fa-envelope"></i> Contact Me!
+        </a>
+      </div>
+    </div>
+  </footer>
+
+          
+ <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>  
+
+
+<script>
+
+  //get current year 
+
+  $('#year').text(new Date().getFullYear));
+
+</script>
+
+</body>
+</html>

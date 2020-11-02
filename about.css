@@ -54,7 +54,7 @@ h2 {
   }
 
   .picture {
-      background-image: url(media/pictures/Profile.png);
+      background-image: url(media/pictures/profile\ pic.jpg);
       width: 200px;
       height: 200px;
       background-size: cover;
